@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Руслан Васильев](https://up.htmlacademy.ru/adaptive/21/user/1223311).
-* Наставник: `Неизвестно`.
+* Наставник: [Алексей Беляев](https://htmlacademy.ru/profile/id691043).
 
 ---
 
