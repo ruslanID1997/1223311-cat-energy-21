@@ -1,0 +1,67 @@
+:root {
+  --basic-black: #000000;
+  --basic-white: #ffffff;
+  --basic-green: #68b738;
+  --basic-border: #e7e7e7;
+  --basic-line: #d9d9d9;
+  --basic-green-2: #5eaa2f;
+  --basic-grey: #f2f2f2;
+  --basic-grey-2: #eaeaea;
+  --special-grey-2: #ebebeb;
+  --special-grey: #cdcdcd;
+  --special-grey-3: #666666;
+  --special-dark-grey: #444444;
+  --special-dark-grey-2: #222222;
+  --status-error: #ff8282;
+  --oswald-font: "Oswald", "Arial", sans-serif;
+  --arial-font: "Arial";
+}
+
+html {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: var(--oswald-font);
+  font-style: normal;
+  font-weight: normal;
+  margin: 0 auto;
+  padding: 0;
+  min-width: 320px;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+fieldset {
+  border: 0 none;
+}
+
+h2 {
+  margin: 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
